@@ -26,5 +26,10 @@ pipeline {
                 echo 'Notification Sent' 
             }
         }
+         stage('Deploy_new') { 
+            steps {
+                echo 'Hello world' 
+            }
+        }
     }
 } 
