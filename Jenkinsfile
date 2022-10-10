@@ -31,5 +31,10 @@ pipeline {
                 echo 'Hello world' 
             }
         }
+          stage('Deploy_release') { 
+            steps {
+                echo 'Hello world' 
+            }
+        }
     }
 } 
