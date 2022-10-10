@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo 'Hello world'
+                echo 'Build is succsessful'
             }
         }
         stage('Test') { 
             steps {
-                echo 'Hello world' 
+                echo 'Testing Complete' 
             }
         }
          stage('Package') { 
@@ -18,8 +18,13 @@ pipeline {
         }
         stage('Deploy') { 
             steps {
-                echo 'Hello world' 
+                echo 'Successfully deployed' 
+            }
+        }
+        stage('Notify') { 
+            steps {
+                echo 'Notification Sent' 
             }
         }
     }
-}
+} 
