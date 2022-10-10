@@ -13,7 +13,7 @@ pipeline {
         }
          stage('Package') { 
             steps {
-                echo 'Hello world' 
+                echo 'package crated successfully' 
             }
         }
         stage('Deploy') { 
